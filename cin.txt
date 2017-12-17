@@ -1,0 +1,4 @@
+//---------------------------- Clean cin buffer -------------------------------------//
+
+std::cin.clear();														// clear error code
+std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');		// clear input buffer till end of line
