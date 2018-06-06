@@ -2,3 +2,13 @@
 
 std::cin.clear(); // clear error code
 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // clear input buffer till end of line
+
+//---------------------------- wprintf  -------------------------------------//
+
+// int wprintf (const wchar_t* format)
+std::wprintf(L"\n%ls", string.c_str());
+
+//---------------------------- printf  -------------------------------------//
+
+// int printf (const char * format)
+std::printf("\n%s", string.c_str());
